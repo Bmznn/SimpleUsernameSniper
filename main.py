@@ -113,4 +113,4 @@ lineBreak.grid(column =0, row=4)
 auth = Button(authGui, text="Authenticate", font = ("Arial", 16, "bold"), width=30, height=1, activebackground="green3", disabledforeground="gray15", bg="gray62", command=attempt_Login)
 auth.grid(column =0, row=5)
 
-authGui.mainloop()
+authGui.mainloop(
